@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profile"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/avance"
+            android:title="@string/avance_curso" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/reglamento"
+            android:title="@string/reglamento" />
+        <item
+            android:id="@+id/temario"
+            android:icon="@drawable/temario"
+            android:title="@string/temario" />
+        <item
+            android:id="@+id/sesiones"
+            android:icon="@drawable/sesiones"
+            android:title="@string/sesiones" />
+    </group>
+</menu>
